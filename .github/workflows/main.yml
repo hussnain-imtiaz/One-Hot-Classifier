@@ -25,7 +25,7 @@ jobs:
           make install
       - name: Lint for synatx
         run: |
-          make link
+          make lint
       - name: Test functionalities
         run: |
           make test
