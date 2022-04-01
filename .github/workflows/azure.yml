@@ -18,11 +18,11 @@ jobs:
         with:
           python-version: 3.7.3
       - name: Install dependencies
-      - run: |
+        run: |
           make install-azure
       - name: Check for syntax
         run: |
           make lint
       - name: Test the functionality
-      - run: |
+        run: |
           make test
