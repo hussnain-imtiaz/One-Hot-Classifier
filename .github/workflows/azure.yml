@@ -16,7 +16,7 @@ jobs:
       - name: Settup python version
         uses: actions/setup-python@v3
         with:
-          python-version: 3.7.3
+          python-version: 3.7
       - name: Install dependencies
         run: |
           make install-azure
