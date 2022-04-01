@@ -1,4 +1,4 @@
-name: CI-OHC
+name: CI-OHC-AWS
 
 # Controls when the workflow will run
 on:
